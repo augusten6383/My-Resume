@@ -1,0 +1,113 @@
+*{
+    font-family: poppins;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: contents;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 140, 255);
+    padding: 0rem 5rem 1rem 5rem;
+}
+.left{
+    margin-top: 0.8rem;
+    color: white;
+}
+.role{
+    margin-top: -1.2rem;
+}
+.profile{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+    border-radius: 100px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-overflow: clip;
+}
+.left1{
+    padding: 0 0rem 1rem 5rem;
+    margin-right: 2rem;
+}
+li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    display: flex;
+}
+li > div{
+        margin-left: 5px;
+}
+h3{
+    color: rgba(0, 140, 255, 1);
+}
+.right1{
+    padding: 0 3rem 0 0;
+}
+.clg{
+    display: flex;
+    margin-top: -1.5rem;
+    margin-left: -1rem;
+}
+.Vels-icon{
+    width: 50px;
+    height: 60px;
+}
+.school-icon{
+    width: 30px;
+    height: 30px;
+}
+.XII{
+    display: flex;
+    p{
+        margin-left: 8px;
+        margin-top: -0.2rem;
+    }
+}
+.education{
+    margin-top: 1.5rem;
+}
+.lang{
+    display: flex;
+    flex-direction: column;
+    b{
+        font-size: 1rem;
+    }
+}
+.ism{
+    margin-top: -0.1rem;
+    font-size: small;
+}
+.exp{
+    h5 , p{
+        margin-top: -0.8rem;
+    }
+    p{
+        font-size: 12px;
+        margin-top: -1rem;
+        margin-left: 2px;
+        color: gray;
+    }
+}
+.c1{
+    display: flex;
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    p{
+        margin-top: -0.3rem;
+        margin-left: 10px;
+        span{
+            color: gray;
+            font-size: 12px;
+        }
+    }
+}
